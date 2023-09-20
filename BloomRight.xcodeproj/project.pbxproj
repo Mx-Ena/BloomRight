@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905988CB2A9D0EF8002BE1DA /* BloomRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905988CA2A9D0EF8002BE1DA /* BloomRightView.swift */; };
+		905988CD2A9D0FF1002BE1DA /* PlantBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905988CC2A9D0FF1002BE1DA /* PlantBoxView.swift */; };
 		90FFB9092A90F5C20065FB98 /* BloomRightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFB9082A90F5C20065FB98 /* BloomRightApp.swift */; };
 		90FFB90B2A90F5C20065FB98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFB90A2A90F5C20065FB98 /* ContentView.swift */; };
 		90FFB90D2A90F5C40065FB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFB90C2A90F5C40065FB98 /* Assets.xcassets */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		905988CA2A9D0EF8002BE1DA /* BloomRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomRightView.swift; sourceTree = "<group>"; };
+		905988CC2A9D0FF1002BE1DA /* PlantBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantBoxView.swift; sourceTree = "<group>"; };
 		90FFB9052A90F5C20065FB98 /* BloomRight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomRight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FFB9082A90F5C20065FB98 /* BloomRightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomRightApp.swift; sourceTree = "<group>"; };
-		90FFB90A2A90F5C20065FB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90FFB90A2A90F5C20065FB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90FFB90C2A90F5C40065FB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90FFB90E2A90F5C40065FB98 /* BloomRight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BloomRight.entitlements; sourceTree = "<group>"; };
 		90FFB9102A90F5C40065FB98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		90FFB9072A90F5C20065FB98 /* BloomRight */ = {
 			isa = PBXGroup;
 			children = (
+				905988CC2A9D0FF1002BE1DA /* PlantBoxView.swift */,
 				90FFB9082A90F5C20065FB98 /* BloomRightApp.swift */,
 				90FFB90A2A90F5C20065FB98 /* ContentView.swift */,
+				905988CA2A9D0EF8002BE1DA /* BloomRightView.swift */,
 				90FFB90C2A90F5C40065FB98 /* Assets.xcassets */,
 				90FFB90E2A90F5C40065FB98 /* BloomRight.entitlements */,
 				90FFB90F2A90F5C40065FB98 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905988CD2A9D0FF1002BE1DA /* PlantBoxView.swift in Sources */,
 				90FFB90B2A90F5C20065FB98 /* ContentView.swift in Sources */,
 				90FFB9092A90F5C20065FB98 /* BloomRightApp.swift in Sources */,
+				905988CB2A9D0EF8002BE1DA /* BloomRightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BloomRight/Preview Content\"";
+				DEVELOPMENT_TEAM = XWX26WLYVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -451,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BloomRight/Preview Content\"";
+				DEVELOPMENT_TEAM = XWX26WLYVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
